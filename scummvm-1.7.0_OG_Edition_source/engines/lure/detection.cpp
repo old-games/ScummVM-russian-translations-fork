@@ -172,12 +172,12 @@ static const LureGameDescription gameDescriptions[] = {
 	},
 
 //add ScummVM OG Edition
-//Rusian fan translation (Beta)	
+//Rusian fan translation v1.0 (Old-Games.ru)
 	{
 		{
 			"lure",
 			"",
-			AD_ENTRY1("disk1.vga", NULL),
+			AD_ENTRY1("disk1.vga", "4766411de21e3bc6e0ee80602392ae6d"),
 			Common::RU_RUS,
 			Common::kPlatformDOS,
 			ADGF_NO_FLAGS,
