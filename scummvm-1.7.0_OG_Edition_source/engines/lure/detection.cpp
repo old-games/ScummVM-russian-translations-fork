@@ -177,7 +177,7 @@ static const LureGameDescription gameDescriptions[] = {
 		{
 			"lure",
 			"",
-			AD_ENTRY1("disk1.vga", "4766411de21e3bc6e0ee80602392ae6d"),
+			AD_ENTRY1("disk1.vga", "f9d5d6a15db9a18c2d7c50e18bb16b44"),
 			Common::RU_RUS,
 			Common::kPlatformDOS,
 			ADGF_NO_FLAGS,
