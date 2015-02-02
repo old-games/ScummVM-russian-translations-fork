@@ -383,7 +383,13 @@ uint16 PopupMenu::ShowItems(Action contextAction, uint16 roomNumber) {
 
 	if (numItems == 0)
 		// No items, so add a 'nothing' to the statusLine
-		strcat(room.statusLine(), "(nothing)");
+		//modify ScummVM OG Edition
+		if (LureEngine::getReference().getLanguage() == Common::RU_RUS) 
+			strcat(room.statusLine(), "(ybxtuj ytn)");
+		else			
+			strcat(room.statusLine(), "(nothing)");
+		}
+		//modify end
 
 	room.update();
 	screen.update();
